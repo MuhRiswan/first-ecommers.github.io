@@ -1,0 +1,14 @@
+@media (max-width: 991.98px) {
+  .text-content {
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .form-promo button {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
+@media (max-width: 330.98px) {
+}

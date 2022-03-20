@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Sayur Bank</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive-style.css" />
+
+    <!-- Owl Carousel CSS Links -->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl/owl.theme.default.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="img/logo.svg" class="img-fluid pb-2 px-2" width="60" alt="" />Sayur Bank</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="nav-button">
+            <button class="main-btn">Register</button>
+            <button class="white-btn">Login</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Endnavbar -->
+
+    <!-- Detail-Product -->
+    <section id="detail-product">
+      <div class="detail-product wrapper">
+        <div class="container">
+          <div class="py-4">
+            <h2>Detail Products</h2>
+          </div>
+          <div class="row">
+            <div class="col-md-5">
+              <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/product/img-detail-1.jpg" class="img-fluid d-block" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/product/img-detail-2.jpg" class="img-fluid d-block" alt="..." />
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/product/img-detail-3.jpg" class="img-fluid d-block" alt="..." />
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+            <div class="col-md-6 mt-5 mt-lg-0">
+              <h4>Cabai Kriting</h4>
+              <div class="d-flex">
+                <div class="rating">
+                  <small class="fa fa-star text-warning"></small>
+                  <small class="fa fa-star text-warning"></small>
+                  <small class="fa fa-star text-warning"></small>
+                  <small class="fa fa-star text-warning"></small>
+                  <small class="fa fa-star text-warning"></small>
+                  <small>(992)</small>
+                </div>
+                <div class="ms-5">
+                  <small>1,125 Terjual</small>
+                </div>
+              </div>
+              <div class="py-3 py-lg-4">
+                <p class="d-block"><span class="text-danger">29.900/kg</span> <del class="ms-2">32.800/kg</del></p>
+              </div>
+              <label for="jumlah" class="form-label"><p>jumlah :</p></label>
+              <input type="text" class="count" id="jumlah" value="1" />
+              <span>Kg</span>
+              <div class="mt-4 checkout-btn">
+                <button class="main-btn">Masukan Keranjang<i class="fas fa-shopping-basket ps-2"></i></button>
+                <button class="white-btn ms-lg-2 mt-lg-0 mt-4">Beli Sekarang<i class="fas fa-angle-right ps-3"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Enddetail-product -->
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="footer py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <a href="#" class="footer-link pe-4">Register</a>
+              <a href="#" class="footer-link pe-4">Forum</a>
+              <a href="#" class="footer-link pe-4">Affiliate</a>
+              <a href="#" class="footer-link pe-4">FAQ</a>
+              <div class="footer-social pt-4 text-center">
+                <a href=""><i class="fab fa-facebook-f pe-4"></i></a>
+                <a href=""><i class="fab fa-youtube pe-4"></i></a>
+                <a href=""><i class="fab fa-instagram pe-4"></i></a>
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <div class="footer-copy">
+                <div class="copy-right text-center pt-3">
+                  <p class="text-light">&copy; 2022. M.Riswan. All right reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Endfooter -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
